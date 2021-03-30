@@ -1,5 +1,5 @@
 # Smartphone Activity Recognition
-> Machine learning approach to classification of human activities and postural transitions based on smartphone accelerometer and gyroscope data. 
+Machine learning approach to classification of human activities and postural transitions based on smartphone accelerometer and gyroscope data. 
 
 ## Table of contents
 * [General info](#general-info)
