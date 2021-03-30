@@ -12,7 +12,9 @@
 * [Contact](#contact)
 
 ## General info
-The goal of this project is to classify the static postures and dynamic activities of people performing basic activities using smartphone accelerometer and gyroscope data.  The static postures include standing, sitting and lying while the dynamic activities include walking, walking upstairs and walking downstairs.  There are also postural transitions between the static postures
+The goal of this project is to classify the static postures and dynamic activities of people performing basic activities using smartphone accelerometer and gyroscope data.  The static postures include standing, sitting and lying while the dynamic activities include walking, walking upstairs and walking downstairs.  There are also postural transitions between the static postures.
+
+Dataset is from [UCI](https://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions)
 
 ## Screenshots
 ![Bagged Trees Results](./img/sit_stand_walk.png)
