@@ -43,6 +43,7 @@ Features that most affect postural prediction
 
 To-do list:
 * scale data
+* feature selection
 * determine best classification algorithm
 * tune model hyperparameters
 * make presentation of data, modeling and prediction accuracy
