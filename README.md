@@ -46,7 +46,7 @@ To-do list:
 * feature selection
 * determine best classification algorithm
 * tune model hyperparameters
-* make presentation of data, modeling and prediction accuracy
+* make presentation to include background information about your project, information about your data, visualizations, modeling techniques, and results/conclusions/recommendations.
 
 ## Status
 Project is: _in progress_
