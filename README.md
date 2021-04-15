@@ -7,7 +7,7 @@ Human Activity Recognition (HAR) is a classification problem of predicting human
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
-* [To-do list:](#to-do-list:)
+* [To-do list](#to-do-list)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
@@ -64,7 +64,7 @@ See project notebooks
 Dataset consists of 10,929 rows by 561 columns, split (70/30) into training and testing datasets
 
 
-## To-do list:
+## To-do list
 * data cleaning (target vector names)
 * exploratory data analysis
 * dimensionality reduction & feature selection
