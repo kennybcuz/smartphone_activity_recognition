@@ -7,24 +7,25 @@ Human Activity Recognition (HAR) is a classification problem of predicting human
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
+* [To-do list:](#todo)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
 ## General info
 The goal of this project is to classify the static postures and dynamic activities of people performing basic activities using smartphone accelerometer and gyroscope data.  The twelve activities were as follows:
-    1 WALKING
-    2 WALKING_UPSTAIRS
-    3 WALKING_DOWNSTAIRS
-    4 SITTING
-    5 STANDING
-    6 LAYING
-    7 STAND_TO_SIT
-    8 SIT_TO_STAND
-    9 SIT_TO_LIE
-    10 LIE_TO_SIT
-    11 STAND_TO_LIE
-    12 LIE_TO_STAND 
+* 1 WALKING
+* 2 WALKING_UPSTAIRS
+* 3 WALKING_DOWNSTAIRS
+* 4 SITTING
+* 5 STANDING
+* 6 LAYING
+* 7 STAND_TO_SIT
+* 8 SIT_TO_STAND
+* 9 SIT_TO_LIE
+* 10 LIE_TO_SIT
+* 11 STAND_TO_LIE
+* 12 LIE_TO_STAND 
 
 The movement data was recorded with a Samsung Galaxy S2.  The movement data consisted of x, y, and z measurements for the accelerometer data (linear acceleration) and the gyroscopic data (angular velocity) from the smart phone. Observations were recorded at 50 Hz (i.e. 50 data points per second). Each of the 30 subjects performed the sequence of activities twice, once with the device on their left-hand-side and once with the device on their right-hand side.
 
@@ -43,6 +44,9 @@ Experiment results with a support vector machine intended for use on a smartphon
 ## Screenshots
 ![Project Pic](./img/sit_stand_walk.png)
 ![Project Video](https://youtu.be/XOEN9W05_4A)
+![Person21 activity count](./img/Person21_activity_count.png)
+![Person21 accel grav gyro](./img/Person21.png)
+![pca 95%](./img/pca_95%.png)
 
 
 ## Technologies
@@ -51,7 +55,7 @@ Experiment results with a support vector machine intended for use on a smartphon
 * Models - KNearestNeighbors Classifier, RandomForestClassifier, XGBoostClassifier
 
 ## Setup
-Setup environment by importing pandas, numpy and the sci-kit learn models mentioned in the Technologies section
+Setup environment by importing pandas, numpy, seaborn and the sci-kit learn models mentioned in the Technologies section
 
 ## Code Examples
 See project notebooks
@@ -60,7 +64,7 @@ See project notebooks
 Dataset consists of 10,929 rows by 561 columns, split (70/30) into training and testing datasets
 
 
-To-do list:
+## To-do list:
 * data cleaning (target vector names)
 * exploratory data analysis
 * dimensionality reduction & feature selection
